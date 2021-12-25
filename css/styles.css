@@ -1,0 +1,68 @@
+/*********************************************
+*************** HTML ELEMENTS ****************
+*********************************************/
+body {
+  font-family: monospace;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+/*********************************************
+************** COLOR & LAYOUT ****************
+*********************************************/
+.site-content {
+  padding: 0px;
+}
+
+.section-content {
+  max-width: 1080px;
+  margin: 0 auto;
+  float: none;
+}
+
+.top-section {
+  padding-top: 32px;
+}
+
+@media (max-width: 512px) {
+  .top-section {
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
+}
+
+@media (max-width: 256px) {
+  .top-section {
+    padding-top: 128px;
+    padding-bottom: 32px;
+  }
+}
+
+.dark-section {
+  background-color: #363640;
+  color: #adadad;
+  padding: 5%;
+}
+
+.light-section {
+  background-color: #616171;
+  color: #e3e3e3;
+  padding: 5%;
+}
+
+.work-entry {
+  padding-top: 3%;
+}
+
+/*********************************************
+************** ELEMENT STYLING ***************
+*********************************************/
+.section-heading {
+  text-align: center;
+}
+
+/*********************************************
+************** SECTION STYLING ***************
+*********************************************/
